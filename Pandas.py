@@ -4,7 +4,7 @@ df1 = pd.DataFrame({
     "Name": ["Alice", "Alex", "Bob", "Charlie"],
     "Age": [25, 30, 35, 40],
     "City": ["New York", "Los Angeles", "Chicago", "Houston"]
-})
+}) 
 print(df1)
 
 df2 = pd.DataFrame({
