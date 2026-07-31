@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df = pd.read_csv("Titanic-Dataset.csv")
+df = pd.read_csv("../data/Titanic-Dataset.csv")
 
 
 print("Shape:", df.shape)
