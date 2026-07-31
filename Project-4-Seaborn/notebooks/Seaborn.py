@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('Titanic-Dataset.csv')
+df = pd.read_csv('../data/Titanic-Dataset.csv')
 
 fig, axes = plt.subplots(2, 3, figsize=(15, 10))
 fig.suptitle('Titanic Deep Analysis — Seaborn', fontsize=16)
