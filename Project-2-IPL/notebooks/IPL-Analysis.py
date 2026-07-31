@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-matches = pd.read_csv('matches.csv')
+matches = pd.read_csv('../data/matches.csv')
 
 print("Shape:", matches.shape)
 print("\nColumns:", matches.columns.tolist())
